@@ -6,4 +6,13 @@
 
 :root {
     scroll-behavior: smooth;
+
+    /* Var */
+    --main-font: 'PT Sans', sans-serif;
+    --title-font: 'Lato', sans-serif;
+    
+}
+
+body {
+    font-family: var(--main-font);
 }
