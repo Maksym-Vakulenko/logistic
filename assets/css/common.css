@@ -18,9 +18,12 @@
     --color-title-intro-amp: rgba(255, 255, 255, 0.2);
     --color-accent: #004AF2;
     --color-text-menu: #fff;
+    --color-text-request-form:#fff;
     --color-btn-orange: #FF903E, #fefefe;
     --color-bg-header: rgba(0, 0, 0, .2);
-    
+    --color-bg-rquest-form: #004AF2;
+    --color-bg-rquest-form-header: #033FC9;
+
     /* Style */
     scroll-behavior: smooth;
     font-size: var(--main-font-size);

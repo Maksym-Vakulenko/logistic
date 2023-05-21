@@ -1,7 +1,7 @@
 .intro {
     background: #000 url(../images/intro/intro-bg.jpg) no-repeat center;
     background-size: cover;
-    padding: 339px 0 50px 0;
+    
 }
 
 .intro__inner {
@@ -9,15 +9,12 @@
     justify-content: space-between;
     align-items: flex-end;
     column-gap: 100px;
-    /* max-height: 600px; */
-}
-
-.intro__form {
-    position: relative;
+    height: 600px;
 }
 
 .intro__offer {
     text-align: end;
+    margin-bottom: 45px;
 }
 
 .intro__subtitle {
@@ -28,6 +25,7 @@
 .intro__title {
     font-family: var(--title-font);
     font-size: 11rem;
+    font-weight: 700;
     color: var(--color-title-intro);
     line-height: 0.9;
     position: relative;
@@ -40,7 +38,7 @@
     right: 0;
     z-index: 1;
     font-size: 17rem;
+    font-weight: 900;
     color: var( --color-title-intro-amp);
     line-height: .58;
-
 }

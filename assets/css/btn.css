@@ -1,0 +1,38 @@
+.btn {
+    background-color: #4a4a4a;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-text-request-form);
+    padding: .6em 2.5em;
+    border-radius: .277em;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: opacity .3s linear;
+}
+
+.btn:hover::before {
+    opacity: .15;
+}
+
+.btn--block {
+    width: 100%;
+}
+
+.btn--orange {
+    background-image: linear-gradient(to right, #FF903E, #FF2C2C);
+}
+
