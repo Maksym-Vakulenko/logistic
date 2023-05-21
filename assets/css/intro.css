@@ -30,4 +30,17 @@
     font-size: 11rem;
     color: var(--color-title-intro);
     line-height: 0.9;
+    position: relative;
+    z-index: 100;
+}
+
+.intro__title span {
+    position: absolute;
+    top: 59px;
+    right: 0;
+    z-index: 1;
+    font-size: 17rem;
+    color: var( --color-title-intro-amp);
+    line-height: .58;
+
 }
