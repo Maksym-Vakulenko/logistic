@@ -12,10 +12,12 @@
     --title-font: 'Lato', sans-serif;
     --main-font-size: 10px;
     --color-tetx: #585858;
-    --color-title: #2C2C2C;
+    --color-title-sections: #2C2C2C;
+    --color-subtitle-intro: #fff;
+    --color-title-intro: rgba(255, 255, 255, 0.8);
     --color-accent: #004AF2;
     --color-text-menu: #fff;
-    --color-btn-orange: #FF903E, #FF2C2C;
+    --color-btn-orange: #FF903E, #fefefe;
     --color-bg-header: rgba(0, 0, 0, .2);
     
     /* Style */

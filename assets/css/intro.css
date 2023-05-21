@@ -1,0 +1,33 @@
+.intro {
+    background: #000 url(../images/intro/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 339px 0 50px 0;
+}
+
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    column-gap: 100px;
+    /* max-height: 600px; */
+}
+
+.intro__form {
+    position: relative;
+}
+
+.intro__offer {
+    text-align: end;
+}
+
+.intro__subtitle {
+    font-size: 1.5rem;
+    color: var(--color-subtitle-intro);
+}
+
+.intro__title {
+    font-family: var(--title-font);
+    font-size: 11rem;
+    color: var(--color-title-intro);
+    line-height: 0.9;
+}
