@@ -54,15 +54,15 @@
 }
 
 .form__input--name {
-    background: url(../images/request-form/_ionicons_svg_ios-person\ 1.svg) left 15px top 1px no-repeat;
+    background: url(../images/requestForm/_ionicons_svg_ios-person\ 1.svg) left 15px top 1px no-repeat;
 }
 
 .form__input--tel {
-    background: url(../images/request-form/_ionicons_svg_ios-call\ 1.svg) left 15px top 1px no-repeat;
+    background: url(../images/requestForm/_ionicons_svg_ios-call\ 1.svg) left 15px top 1px no-repeat;
 }
 
 .form__input--email {
-    background: url(../images/request-form/_ionicons_svg_ios-mail\ 1.svg) left 15px top 5px no-repeat;
+    background: url(../images/requestForm/_ionicons_svg_ios-mail\ 1.svg) left 15px top 5px no-repeat;
 }
 
 
